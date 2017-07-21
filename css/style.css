@@ -6,7 +6,6 @@ header {
 	font-family: sans-serif;
 	background: #2b1f36 url("../img/video-cover-mob.jpg") no-repeat;
 	background-size: cover;
-	overflow-x: hidden;
 }
 
 a:hover {
@@ -211,15 +210,7 @@ a:active {
 }
 
 .bg-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -10;
-	display: block;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+	display: none;
 }
 
 @media (min-width: 768px) {
