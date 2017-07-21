@@ -211,14 +211,7 @@ a:active {
 }
 
 .bg-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -10;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+	display: none;
 }
 
 @media (min-width: 768px) {
@@ -307,6 +300,18 @@ a:active {
 
 	.social-link:last-child {
 		margin-right: 0;
+	}
+
+	.bg-video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -10;
+		display: block;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
 	}
 
 }
